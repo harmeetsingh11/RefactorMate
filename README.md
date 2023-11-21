@@ -169,12 +169,7 @@ The server will be running at `PORT:8000`
 
 ### Demo video
 
-<video src="public/screenshots/demo.mp4" controls title="Demo"></video>
-## Demo Video
-
-![Demo video](public/screenshots/demo.mp4)
-
-
+<video src="public/screenshots/demo.mp4" controls title="Title"></video>
 
 ## Contributing
 
