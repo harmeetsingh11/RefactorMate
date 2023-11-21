@@ -169,7 +169,11 @@ The server will be running at `PORT:8000`
 
 ### Demo video
 
-<video src="public/screenshots/demo.mp4" controls title="Title"></video>
+
+
+https://github.com/harmeetsingh11/RefactorMate/assets/130365071/7166b29e-71d5-4ff9-9b45-92f5fd63c91d
+
+
 
 ## Contributing
 
