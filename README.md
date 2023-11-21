@@ -1,6 +1,6 @@
 # RefactorMate - Your Code Refactoring Companion
 
-RefactorMate is a powerful code refactoring tool that harnesses the capabilities of the GPT-3.5-turbo model from OpenAI to streamline and enhance your coding experience. Whether you're a seasoned developer looking to optimize your code or a beginner learning the ropes, RefactorMate is here to make your coding journey smoother and more efficient.
+RefactorMate is a code refactoring tool that harnesses the capabilities of the GPT-3.5-turbo model from OpenAI to streamline and enhance your coding experience. Whether you're a seasoned developer looking to optimize your code or a beginner learning the ropes, RefactorMate is here to make your coding journey smoother and more efficient.
 
 ## Table of Contents
 
