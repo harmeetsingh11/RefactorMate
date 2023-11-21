@@ -161,13 +161,13 @@ npm run backend
 ```
 The server will be running at `PORT:8000`
 
-### Screenshots
+## Screenshots
 
 ![home](public/screenshots/home.png)
 ![benefits](public/screenshots/benefits.png)
 ![refactor](public/screenshots/Refactor.png)
 
-### Demo video
+## Demo video
 
 
 
