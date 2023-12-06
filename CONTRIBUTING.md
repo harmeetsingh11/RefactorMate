@@ -24,26 +24,26 @@ To get started, look at the existing [**Issues**](https://github.com/harmeetsing
 ### Setup guidelines 🪜
 Follow these steps to setup RefactorMate on your local machine
 
-1. [Fork](https://github.com/harmeetsingh11/RefactorMate/fork) the project
+**1. [Fork](https://github.com/harmeetsingh11/RefactorMate/fork) the project**
    
-2. Clone the project to run on your local machine using the following command:
+**2. Clone the project to run on your local machine using the following command:**
 
    ```sh
    git clone https://github.com/<your_github_username>/RefactorMate.git
    ```
 
-3. Get into the root directory
+**3. Get into the root directory**
 
    ```sh
    cd .\RefactorMate\
    ```
 
-4. Install all dependencies by running
+**4. Install all dependencies by running**
 
    ```sh
    npm install
    ```
-5. Get OpenAI API Key [here](https://openai.com/product)
+**5. Get OpenAI API Key [here](https://openai.com/product)**
 
     Configure API key in `index.ts` 
 
@@ -51,13 +51,13 @@ Follow these steps to setup RefactorMate on your local machine
     const API_KEY:string="YOUR_OPENAI_API_KEY"
     ```
 
-6. Create your branch
+**6. Create your branch**
 
    ```sh
    git checkout -b <your_branch_name>
    ```
 
-7. Run the Client (Frontend)
+**7. Run the Client (Frontend)**
     Start the frontend application:
 
     ```bash
@@ -66,7 +66,7 @@ Follow these steps to setup RefactorMate on your local machine
     The client will be accessible at http://localhost:5173 by default.
 
 
-8. Run the Server (Backend)
+**8. Run the Server (Backend)**
     Start the backend:
 
     ```bash
@@ -74,9 +74,9 @@ Follow these steps to setup RefactorMate on your local machine
     ```
     The server will be running at `PORT:8000`
 
-9. Make your changes before staging them.
+**9. Make your changes before staging them.**
 
-10. Stage your changes
+**10. Stage your changes**
 
       ```bash
       git add <filename>
@@ -87,22 +87,28 @@ Follow these steps to setup RefactorMate on your local machine
       git add .
       ```
 
-11. Commit your changes
+**11. Commit your changes**
 
       ```bash
       git commit -m "<your-commit-message>"
       ```
 
-12. Push your changes to your branch
+**12. Push your changes to your branch**
 
     ```bash
     git push origin "<your_branch_name>"
     ```
 
-13. Create a [PULL REQUEST](https://github.com/harmeetsingh11/RefactorMate/compare) 💣
+**13. Create a [PULL REQUEST](https://github.com/harmeetsingh11/RefactorMate/compare) 💣**
 
     > Click _compare across forks_ if you don't see your branch
 
 
+## Useful Links 🔗
 
+- [GitHub Forking Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+- [GitHub Pull Requests Guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+- [GitHub Issues Guide](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+- [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
