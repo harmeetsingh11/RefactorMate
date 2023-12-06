@@ -43,9 +43,7 @@ Follow these steps to setup RefactorMate on your local machine
    ```sh
    npm install
    ```
-5. Get OpenAI API Key
-   
-    Get API Key [here](https://openai.com/product)
+5. Get OpenAI API Key [here](https://openai.com/product)
 
     Configure API key in `index.ts` 
 
