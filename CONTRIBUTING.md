@@ -80,20 +80,20 @@ Follow these steps to setup RefactorMate on your local machine
 
 10. Stage your changes
 
-   ```bash
-   git add <filename>
-   ```
-    or
+      ```bash
+      git add <filename>
+      ```
+      or
 
-   ```bash
-   git add .
-   ```
+      ```bash
+      git add .
+      ```
 
 11. Commit your changes
 
-   ```bash
-   git commit -m "<your-commit-message>"
-   ```
+      ```bash
+      git commit -m "<your-commit-message>"
+      ```
 
 12. Push your changes to your branch
 
