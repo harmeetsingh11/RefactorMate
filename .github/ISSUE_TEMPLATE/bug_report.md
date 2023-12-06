@@ -1,8 +1,8 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: ''
+title: "[BUG]"
+labels: bug, CodePeak'23
 assignees: ''
 
 ---
@@ -36,3 +36,9 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+**Record**
+- [ ] I have checked the existing [issues](https://github.com/harmeetsingh11/RefactorMate/issues) 
+- [ ] I have read the [Contributing Guidelines](https://github.com/harmeetsingh11/RefactorMate/blob/main/CONTRIBUTING.md) 
+- [ ] I agree to follow this project's [Code of Conduct](https://github.com/harmeetsingh11/RefactorMate/blob/main/CODE_OF_CONDUCT.md) 
+- [ ] I want to work on this issue

@@ -1,8 +1,8 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
-labels: ''
+title: "[FEATURE REQUEST]"
+labels: CodePeak'23, Feature Request
 assignees: ''
 
 ---
@@ -18,3 +18,9 @@ A clear and concise description of any alternative solutions or features you've 
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
+
+**Record**
+- [ ] I have checked the existing [issues](https://github.com/harmeetsingh11/RefactorMate/issues) 
+- [ ] I have read the [Contributing Guidelines](https://github.com/harmeetsingh11/RefactorMate/blob/main/CONTRIBUTING.md) 
+- [ ] I agree to follow this project's [Code of Conduct](https://github.com/harmeetsingh11/RefactorMate/blob/main/CODE_OF_CONDUCT.md) 
+- [ ] I want to work on this issue
