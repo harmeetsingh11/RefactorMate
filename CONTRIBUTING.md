@@ -45,7 +45,7 @@ Follow these steps to setup RefactorMate on your local machine
    ```
 **5. Get OpenAI API Key [here](https://openai.com/product)**
 
-    Configure API key in `index.ts` 
+   Configure API key in `index.ts` 
 
     ```ts
     const API_KEY:string="YOUR_OPENAI_API_KEY"
@@ -58,20 +58,24 @@ Follow these steps to setup RefactorMate on your local machine
    ```
 
 **7. Run the Client (Frontend)**
+
     Start the frontend application:
 
     ```bash
     npm run frontend
     ```
+
     The client will be accessible at http://localhost:5173 by default.
 
 
 **8. Run the Server (Backend)**
+
     Start the backend:
 
     ```bash
     npm run backend
     ```
+
     The server will be running at `PORT:8000`
 
 **9. Make your changes before staging them.**
@@ -81,11 +85,14 @@ Follow these steps to setup RefactorMate on your local machine
       ```bash
       git add <filename>
       ```
+
       or
+
 
       ```bash
       git add .
       ```
+
 
 **11. Commit your changes**
 
@@ -100,6 +107,7 @@ Follow these steps to setup RefactorMate on your local machine
     ```
 
 **13. Create a [PULL REQUEST](https://github.com/harmeetsingh11/RefactorMate/compare) 💣**
+
 
     > Click _compare across forks_ if you don't see your branch
 
