@@ -25,7 +25,8 @@ To get started, look at the existing [**Issues**](https://github.com/harmeetsing
 Follow these steps to setup RefactorMate on your local machine
 
 1. [Fork](https://github.com/harmeetsingh11/RefactorMate/fork) the project
-   
+   ![1](https://github.com/harmeetsingh11/RefactorMate/assets/130365071/7348d460-6fbc-471a-810f-4eddf8718fa9)
+
 2. Clone the project to run on your local machine using the following command:
 
    ```sh
