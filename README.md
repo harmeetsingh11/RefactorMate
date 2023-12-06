@@ -11,7 +11,7 @@ RefactorMate is a code refactoring tool that harnesses the capabilities of the G
 - [Getting Started](#getting-started)
 - [Screenshots](#screenshots)
 - [Demo Video](#demo-video)
-- [Contributing](#contributing)
+- [Contributing Guidelines](#contributing-guidelines)
 
 
 
@@ -175,6 +175,10 @@ https://github.com/harmeetsingh11/RefactorMate/assets/130365071/7166b29e-71d5-4f
 
 
 
-## Contributing
+## Contributing Guidelines
 
-We welcome and appreciate contributions from the community! If you find a bug, have a feature request, or would like to contribute in any way, feel free to open an issue or submit a pull request. Whether you're fixing a typo or adding a new feature, your efforts are valued, and together we can make this project even better. Thank you for considering contributing to RefactorMate!
+>⚠️Before contributing to this project, be sure to read and adhere to the [Contributing Guidelines](https://github.com/harmeetsingh11/RefactorMate/blob/main/CONTRIBUTING.md).
+
+Thank you for considering contributing to [RefactorMate](https://github.com/harmeetsingh11/RefactorMate). We welcome and appreciate contributions from the community! 
+
+If you find a bug, have a feature request, or would like to contribute in any way, feel free to open an issue or submit a pull request. Whether you're fixing a typo or adding a new feature, your efforts are valued, and together we can make this project even better. Thank you for considering contributing to [RefactorMate](https://github.com/harmeetsingh11/RefactorMate)!
