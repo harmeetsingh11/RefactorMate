@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: "[FEATURE REQUEST]"
+title: "[FEATURE REQUEST]: "
 labels: CodePeak'23, Feature Request
 assignees: ''
 
