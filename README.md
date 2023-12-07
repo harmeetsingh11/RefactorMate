@@ -8,7 +8,7 @@ RefactorMate is a code refactoring tool that harnesses the capabilities of the G
 - [Prerequisites](#prerequisites)
 - [Tech Stack](#tech-stack)
 - [Dependencies](#dependencies) 
-- [Getting Started](#getting-started)
+- [Installation](#installation)
 - [Screenshots](#screenshots)
 - [Demo Video](#demo-video)
 - [Contributing Guidelines](#contributing-guidelines)
@@ -111,7 +111,7 @@ Before you begin, ensure you have the following software installed on your machi
   - Description: A blazing-fast build tool that scales to large projects.
 
 
-## Getting Started
+## Installation
 
 Follow these steps to get your project up and running locally:
 
