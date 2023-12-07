@@ -11,7 +11,7 @@ RefactorMate is a code refactoring tool that harnesses the capabilities of the G
 - [Installation](#installation)
 - [Screenshots](#screenshots)
 - [Demo Video](#demo-video)
-- [Contributing Guidelines](#contributing-guidelines)
+- [Contributing](#contributing)
 
 
 
@@ -175,7 +175,7 @@ https://github.com/harmeetsingh11/RefactorMate/assets/130365071/7166b29e-71d5-4f
 
 
 
-## Contributing Guidelines
+## Contributing
 
 >⚠️Before contributing to this project, be sure to read and adhere to the [Contributing Guidelines](https://github.com/harmeetsingh11/RefactorMate/blob/main/CONTRIBUTING.md).
 
