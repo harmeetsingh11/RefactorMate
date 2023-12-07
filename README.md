@@ -139,10 +139,10 @@ npm install
 
 Get API Key [here](https://openai.com/product)
 
-Configure API key in `index.ts` 
+Configure API key in `.env` file 
 
 ```ts
-const API_KEY:string="YOUR_OPENAI_API_KEY"
+VITE_OPENAI_API_KEY = <YOUR_OPENAI_API_KEY>
 ```
 
 ### 5. Run the Client (Frontend)

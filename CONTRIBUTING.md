@@ -46,10 +46,10 @@ Follow these steps to setup RefactorMate on your local machine
    ```
 5. Get OpenAI API Key [here](https://openai.com/product)
 
-    Configure API key in `index.ts` 
+    Configure API key in `.env` file 
 
     ```ts
-    const API_KEY:string="YOUR_OPENAI_API_KEY"
+    VITE_OPENAI_API_KEY = <YOUR_OPENAI_API_KEY>
     ```
 
 6. Create your branch
