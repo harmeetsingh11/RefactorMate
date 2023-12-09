@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Benefits from './components/Benefits'
 import Footer from './components/Footer'
+import SubHero from './components/SubHero'
 
 
 interface chatData{
@@ -64,26 +65,29 @@ const App = ()=> {
   return (
     <>
       <Navbar/>
-      <Hero /> 
-      <Benefits/>
+        <Hero /> 
 
       {/* main section starts*/}
-      <div className="relative bg-[url('./assets/background.svg')] pt-6" id="main">
+      <div className="relative bg-[url('./assets/background.svg')] pt-6 z-10" id="main">
+        
       <div className="flex justify-around">
         <OriginalCodeDisplay onValueChange={(newValue:string)=>setValue(newValue)}/>   
         {loading ? (
-  <SkeletonLoading />
-) : (
-  <RefactorCodeDisplay text={refactoredCode?.content||""}/>
-)}
+          <SkeletonLoading />
+          ) : (
+            <RefactorCodeDisplay text={refactoredCode?.content||""}/>
+            )}
       </div>
       <div className='flex justify-center'>
+        
       <button onClick={getRefactorCode}
-      type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-8 mb-12">{loading?message:"Refactor Code"}</button>
+      type="button" className="px-4 py-2 mt-8 mb-12 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">{loading?message:"Refactor Code"}</button>
       </div>
       </div>
       {/* main section ends */}
+      <SubHero/>
 
+      <Benefits/>
       <Footer/>
     </>
   )
