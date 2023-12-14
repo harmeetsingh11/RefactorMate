@@ -28,7 +28,7 @@ const SkeletonLoading = () => {
       <div className="flex h-[68vh] w-[45vw] rounded-b-md bg-gray-800 "
     > 
       {/* Skeleton loading */}
-        <div role="status" className="w-[75%] animate-pulse p-5">
+        <div role="status" className="w-full h-full border border-white animate-pulse p-5">
             <div className="h-2.5 bg-gray-400 rounded-sm dark:bg-gray-700 w-48 mb-2.5"></div>
             <div className="h-2.5 bg-gray-400 rounded-sm dark:bg-gray-700 max-w-[260px] mb-2.5"></div>
             <div className="h-2.5 bg-gray-400 rounded-sm dark:bg-gray-700 mb-2.5"></div>

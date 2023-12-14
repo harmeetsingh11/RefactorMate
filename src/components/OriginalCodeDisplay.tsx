@@ -24,7 +24,7 @@ const OriginalCodeDisplay:React.FC<OriginalCodeDisplayProps> = ({onValueChange})
         <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
         <div className="w-3 h-3 rounded-full bg-green-500"></div>
       </div>
-<div className='flex text-gray-200 cursor-pointer font-sans'>Original Code</div>
+<div className='flex text-gray-200 cursor-pointer font-sans '>Original Code</div>
 <div className=" pr-1 text-gray-200  cursor-pointer font-sans">
 {paste?(<button className='items-center gap-1 inline-flex'>
           <span>
@@ -67,7 +67,7 @@ const OriginalCodeDisplay:React.FC<OriginalCodeDisplayProps> = ({onValueChange})
         placeholder='Enter your code'
         value={value}
         onChange={handleChange}
-        className=" block w-full resize-none focus:outline-none  bg-gray-800 text-white font-mono text-md"
+        className=" block w-full h-full resize-none focus:outline-none  bg-gray-800 text-white font-mono text-md"
       >
       </textarea>
     </div>
