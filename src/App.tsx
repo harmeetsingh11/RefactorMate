@@ -68,7 +68,7 @@ const App = ()=> {
 
       {/* main section starts*/}
       <div className="relative bg-[url('./assets/background.svg')] pt-6" id="main">
-      <div className="flex justify-around">
+      <div className="flex md:flex-row flex-col gap-5  max-w-7xl m-auto justify-evenly px-4">
         <OriginalCodeDisplay onValueChange={(newValue:string)=>setValue(newValue)}/>   
         {loading ? (
   <SkeletonLoading />
