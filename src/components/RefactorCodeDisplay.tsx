@@ -10,8 +10,8 @@ const RefactorCodeDisplay:React.FC<RefactorCodeDisplayProps> = ({text}) => {
   const [copy,setCopy]=useState(false)
 
   return (
-    <div className="w-full ">
-    <div className="flex flex-col px-2">
+    <div>
+    <div className="flex flex-col p-6 pl-1">
       {/* macOS Title Bar  */}
       <div className="flex-none flex items-center rounded-t-md justify-between px-4 py-2 bg-gray-700">
         <div className="flex items-center space-x-2">
@@ -58,7 +58,7 @@ const RefactorCodeDisplay:React.FC<RefactorCodeDisplayProps> = ({text}) => {
          
         </textarea>
       </div> */}
-      <div className="flex h-[68vh] w-full rounded-b-md relative"
+      <div className="flex h-[68vh] w-[45vw] rounded-b-md relative"
     > 
       
     <SyntaxHighlighter className=" absolute inset-0 rounded-b-md p-0" language="javascript" style={atomOneDark} showLineNumbers={true} wrapLines={true} >
