@@ -16,7 +16,7 @@ const OriginalCodeDisplay:React.FC<OriginalCodeDisplayProps> = ({onValueChange})
   };
 
   return (
-    <div className="w-full flex flex-col px-2">
+    <div className="flex flex-col p-6 pr-1">
     {/* macOS Title Bar  */}
     <div className="flex-none flex items-center rounded-t-md justify-between px-4 py-2 bg-gray-700">
       <div className="flex items-center space-x-2">
@@ -57,7 +57,7 @@ const OriginalCodeDisplay:React.FC<OriginalCodeDisplayProps> = ({onValueChange})
     </div>
 
     {/* Code Input Box */}
-    <div className="p-4 flex-grow h-[68vh] w-full bg-gray-800 rounded-b-md">
+    <div className="p-4  flex-grow h-[68vh] w-[45vw] bg-gray-800 rounded-b-md">
 
       <textarea
         id="code"
@@ -67,7 +67,7 @@ const OriginalCodeDisplay:React.FC<OriginalCodeDisplayProps> = ({onValueChange})
         placeholder='Enter your code'
         value={value}
         onChange={handleChange}
-        className="block w-full h-full resize-none focus:outline-none  bg-gray-800 text-white font-mono text-md"
+        className=" block w-full h-full resize-none focus:outline-none  bg-gray-800 text-white font-mono text-md"
       >
       </textarea>
     </div>
