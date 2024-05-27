@@ -1,0 +1,65 @@
+name: 🐞 Bug Report
+description: Report an issue to help us improve the project.
+title: '[BUG]: <brief description>'
+labels:
+  - 'bug'
+  - 'goal: fix'
+  - 'priority: medium'
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: >
+        A brief description of the issue or bug you are facing. 
+        Include steps to reproduce the issue, what you expected to happen, and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: >
+        Detailed steps to reproduce the bug. Please be as specific as possible.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: >
+        Describe what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: >
+        Describe what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: >
+        If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: >
+        Any other information or context about the problem.
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Browser
+      description: >
+        What browser are you experiencing the issue on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Other
+    validations:
+      required: true
