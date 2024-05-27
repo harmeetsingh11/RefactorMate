@@ -1,0 +1,55 @@
+name: Feature Request 💡
+description: Have any new idea or new feature for RefactorMate? Please suggest!
+title: '[Feature] <write a small description here>'
+labels:
+  - 'enhancement'
+  - 'goal: addition'
+  - 'priority: high'
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of any alternative solution or features you've considered.
+    validations:
+      required: true
+
+    - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Why do you believe this feature is important or necessary?
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation_details
+    attributes:
+      label: Implementation Details (optional)
+      description: Any ideas or suggestions on how this feature could be implemented?
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Please add screenshots if applicable
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: no-duplicate-issues
+    attributes:
+      label: 'Checklist'
+      options:
+        - label: 'I have starred the repository'
+          required: true
+        - label: 'I have checked the existing [issues](https://github.com/harmeetsingh11/RefactorMate/issues)'
+          required: true
+        - label: 'I have read the [Contributing Guidelines](https://github.com/harmeetsingh11/RefactorMate/blob/main/CONTRIBUTING.md)'
+          required: true
+        - label: 'I agree to follow this project's [Code of Conduct](https://github.com/harmeetsingh11/RefactorMate/blob/main/CODE_OF_CONDUCT.md)'
+          required: true
+        - label: 'I am willing to work on this issue (optional)'
+          required: false
