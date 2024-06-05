@@ -1,0 +1,25 @@
+{
+  "LABEL": {
+    "name": "Title Needs Formatting",
+    "color": "F9D0C4"
+  },
+  "CHECKS": {
+    "prefixes": [
+      "build: ",
+      "chore: ",
+      "docs: ",
+      "feat: ",
+      "fix: ",
+      "perf: ",
+      "refactor: ",
+      "revert: ",
+      "style: ",
+      "test: "
+    ]
+  },
+  "MESSAGES": {
+    "success": "Everything is great. Status: 200",
+    "failure": "PR title does not conform to the required format. Please use one of the specified prefixes: feat, build, chore, docs, fix, perf, refactor, revert, style, or test, followed by a colon and a space. For example, 'feat: add new login feature'. Status: 400",
+    "notice": ""
+  }
+}
