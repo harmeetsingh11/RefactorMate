@@ -1,8 +1,0 @@
-addReviewers: true
-
-addAssignees: false
-
-reviewers:
-  - harmeetsingh11
-
-numberOfReviewers: 1
