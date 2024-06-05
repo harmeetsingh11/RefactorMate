@@ -103,6 +103,25 @@ Follow these steps to setup RefactorMate on your local machine
 13. Create a [PULL REQUEST](https://github.com/harmeetsingh11/RefactorMate/compare) 💣
 
     > Click _compare across forks_ if you don't see your branch
+    
+> [!IMPORTANT]
+> Ensure your PR title conforms to the required format. Use one of the specified prefixes, followed by a colon and a space. Here are the valid prefixes:
+> - `build: `
+> - `chore: `
+> - `docs: `
+> - `feat: `
+> - `fix: `
+> - `perf: `
+> - `refactor: `
+> - `revert: `
+> - `style: `
+> - `test: `
+> 
+> **Example:**
+> ```
+> feat: add new login feature
+> ```
+> Provide a clear description of the changes you made and submit your PR.
 
 
 ## Useful Links 🔗
