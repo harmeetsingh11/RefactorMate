@@ -139,7 +139,7 @@ cd .\RefactorMate\
 ```
 
 ### 3. Install Dependencies
-Install the dependencies using npm:
+Install the dependencies using `pnpm`:
 
 ```bash
 pnpm install
