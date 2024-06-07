@@ -13,7 +13,7 @@ Thank you for taking the time to contribute to our project. Please take a moment
 - Basic familiarity with Git and GitHub: If you are also new to these tools, visit [GitHub for complete beginners](https://developer.mozilla.org/en-US/docs/MDN/Contribute/GitHub_beginners) for a comprehensive introduction to them.
 
 - Make sure you have [Node.js](https://nodejs.org/) installed.
-- Make sure you have [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed.
+- Make sure you have [PNPM]([https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://pnpm.io/installation)) installed.
 
 ---
 
@@ -25,26 +25,27 @@ To get started, look at the existing [**Issues**](https://github.com/harmeetsing
 Follow these steps to setup RefactorMate on your local machine
 
 1. [Fork](https://github.com/harmeetsingh11/RefactorMate/fork) the project
+
    ![1](https://github.com/harmeetsingh11/RefactorMate/assets/130365071/7348d460-6fbc-471a-810f-4eddf8718fa9)
 
-2. Clone the project to run on your local machine using the following command:
+3. Clone the project to run on your local machine using the following command:
 
    ```sh
    git clone https://github.com/<your_github_username>/RefactorMate.git
    ```
 
-3. Get into the root directory
+4. Get into the root directory
 
    ```sh
    cd .\RefactorMate\
    ```
 
-4. Install all dependencies by running
+5. Install all dependencies by running
 
    ```sh
-   npm install
+   pnpm install
    ```
-5. Get OpenAI API Key [here](https://openai.com/product)
+6. Get OpenAI API Key [here](https://openai.com/product)
 
     Configure API key in `.env` file 
 
@@ -52,32 +53,32 @@ Follow these steps to setup RefactorMate on your local machine
     VITE_OPENAI_API_KEY = <YOUR_OPENAI_API_KEY>
     ```
 
-6. Create your branch
+7. Create your branch
 
    ```sh
    git checkout -b <your_branch_name>
    ```
 
-7. Run the Client (Frontend)
+8. Run the Client (Frontend)
     Start the frontend application:
 
     ```bash
-    npm run frontend
+    pnpm run frontend
     ```
     The client will be accessible at http://localhost:5173 by default.
 
 
-8. Run the Server (Backend)
+9. Run the Server (Backend)
     Start the backend:
 
     ```bash
-    npm run backend
+    pnpm run backend
     ```
     The server will be running at `PORT:8000`
 
-9. Make your changes before staging them.
+10. Make your changes before staging them.
 
-10. Stage your changes
+11. Stage your changes
 
       ```bash
       git add <filename>
@@ -88,19 +89,19 @@ Follow these steps to setup RefactorMate on your local machine
       git add .
       ```
 
-11. Commit your changes
+12. Commit your changes
 
       ```bash
       git commit -m "<your-commit-message>"
       ```
 
-12. Push your changes to your branch
+13. Push your changes to your branch
 
     ```bash
     git push origin "<your_branch_name>"
     ```
 
-13. Create a [PULL REQUEST](https://github.com/harmeetsingh11/RefactorMate/compare) 💣
+14. Create a [PULL REQUEST](https://github.com/harmeetsingh11/RefactorMate/compare) 💣
 
     > Click _compare across forks_ if you don't see your branch
     
@@ -123,39 +124,48 @@ Follow these steps to setup RefactorMate on your local machine
 > ```
 > Provide a clear description of the changes you made and submit your PR.
 
-### Alternatively, contribute using GitHub Desktop
+### Alternatively, you can also contribute using GitHub Desktop 💻
 
-1. **Open GitHub Desktop:**
-   Launch GitHub Desktop and log in to your GitHub account if you haven't already.
+1. **Open GitHub Desktop 🖥️**
+   🚀 Launch GitHub Desktop and log in to your GitHub account if you haven't already.
 
-2. **Clone the Repository:**
-   - If you haven't cloned the RefactorMate repository yet, you can do so by clicking on the "File" menu and selecting "Clone Repository."
-   - Choose the RefactorMate repository from the list of repositories on GitHub and clone it to your local machine.
+2. **Clone the Repository 🔄**
+   - If you haven't cloned the `RefactorMate` repository yet, follow these steps:
+     - Click on the `File`menu in GitHub Desktop.
+     - Select `Clone Repository`.
+     - Choose the `RefactorMate` repository from the list of repositories on GitHub and clone it to your local machine.
 
-3. **Switch to the Correct Branch:**
+3. **Switch to the Correct Branch 🌿**
    - Ensure you are on the branch that you want to submit a pull request for.
-   - If you need to switch branches, you can do so by clicking on the "Current Branch" dropdown menu and selecting the desired branch.
+   - To switch branches:
+     - Click on the `Current Branch` dropdown menu in GitHub Desktop.
+     - Select the desired branch.
 
-4. **Make Changes:**
-   Make your changes to the code or files in the repository using your preferred code editor.
+4. **Make Changes ✏️**
+   - Make your changes to the code or files in the repository using your preferred code editor.
 
-5. **Commit Changes:**
-   - In GitHub Desktop, you'll see a list of the files you've changed. Check the box next to each file you want to include in the commit.
-   - Enter a summary and description for your changes in the "Summary" and "Description" fields, respectively. Click the "Commit to <branch-name>" button to commit your changes to the local branch.
+6. **Commit Changes  📝**
+   - In GitHub Desktop:
+     - You'll see a list of the files you've changed. Check the box next to each file you want to include in the commit.
+     - Enter a summary and description for your changes in the `Summary` and `Description` fields, respectively.
+     - Click the `Commit to <branch-name>` button to commit your changes to the local branch.
 
-6. **Push Changes to GitHub:**
-   After committing your changes, click the "Push origin" button in the top right corner of GitHub Desktop to push your changes to your forked repository on GitHub.
+7. **Push Changes to GitHub ⬆️**
+   - After committing your changes, click the `Push origin` button in the top right corner of GitHub Desktop to push your changes to your forked repository on GitHub.
 
-7. **Create a Pull Request:**
-  - Go to the GitHub website and navigate to your fork of the RefactorMate repository.
-  - You should see a button to "Compare & pull request" between your fork and the original repository. Click on it.
+8. **Create a Pull Request 📩**
+   - Go to the GitHub website and navigate to your fork of the `RefactorMate` repository.
+   - Click on the `Compare & pull request` button between your fork and the original repository.
 
-8. **Review and Submit:**
-   - On the pull request page, review your changes and add any additional information, such as a title and description, that you want to include with your pull request.
-   - Once you're satisfied, click the "Create pull request" button to submit your pull request.
+9. **Review and Submit  ✅**
+   - On the pull request page:
+     - Review your changes.
+     - Add any additional information, such as a title and description, that you want to include with your pull request.
+     - Click the `Create pull request` button to submit your pull request.
 
-9. **Wait for Review:**
-    Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the RefactorMate repository.
+10. **Wait for Review  ⏳**
+   - Your pull request will now be available for review by the project maintainers. They may provide feedback or ask for changes before merging your pull request into the main branch of the `RefactorMate` repository.
+
 
 ## Useful Links 🔗
 
