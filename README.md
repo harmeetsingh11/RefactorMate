@@ -39,8 +39,18 @@ RefactorMate is not just a tool; it's a learning companion. Gain insights into c
 Before you begin, ensure you have the following software installed on your machine:
 
 - [Node.js](https://nodejs.org/) - Make sure to install a version that is compatible with the project.
-- [npm](https://www.npmjs.com/) - Node.js package manager.
 - [Git](https://git-scm.com/) - Version control system.
+- [pnpm](https://pnpm.io/) - Fast, disk efficient Node.js package manager.
+
+#### Install `pnpm` using npm
+```sh
+npm install -g pnpm
+```
+
+After installation, verify the `pnpm` version to ensure it was installed correctly:
+```sh
+pnpm --version
+```
   
 ## Tech Stack
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -49,64 +59,64 @@ Before you begin, ensure you have the following software installed on your machi
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220)
 
 ## Dependencies
 
 ### Dependencies
 
-- **@types/node**: ^20.9.2
+- **@types/node**: ^20.14.2
   - Description: TypeScript definitions for Node.js.
 - **cors**: ^2.8.5
   - Description: Middleware to enable CORS (Cross-Origin Resource Sharing) in your Express app.
-- **dotenv**: ^16.3.1
+- **dotenv**: ^16.4.5
   - Description: Loads environment variables from a .env file into process.env.
-- **express**: ^4.18.2
+- **express**: ^4.19.2
   - Description: Fast, unopinionated, minimalist web framework for Node.js.
-- **openai**: ^4.19.0
+- **openai**: ^4.49.0
   - Description: OpenAI API client for interacting with the GPT model.
-- **react**: ^18.2.0
+- **react**: ^18.3.1
   - Description: A JavaScript library for building user interfaces.
-- **react-dom**: ^18.2.0
+- **react-dom**: ^18.3.1
   - Description: React package for working with the DOM.
 - **react-syntax-highlighter**: ^15.5.0
   - Description: Syntax highlighting component for React using `react-syntax-highlighter`.
-- **ts-node**: ^10.9.1
+- **ts-node**: ^10.9.2
   - Description: TypeScript execution environment and REPL for Node.js.
 
 ### Development Dependencies
 
-- **@types/cors**: ^2.8.16
+- **@types/cors**: ^2.8.17
   - Description: TypeScript definitions for the `cors` package.
 - **@types/express**: ^4.17.21
   - Description: TypeScript definitions for the `express` package.
-- **@types/react**: ^18.2.37
+- **@types/react**: ^18.3.3
   - Description: TypeScript definitions for React.
-- **@types/react-dom**: ^18.2.15
+- **@types/react-dom**: ^18.3.0
   - Description: TypeScript definitions for React DOM.
-- **@types/react-syntax-highlighter**: ^15.5.10
+- **@types/react-syntax-highlighter**: ^15.5.13
   - Description: TypeScript definitions for `react-syntax-highlighter`.
-- **@typescript-eslint/eslint-plugin**: ^6.10.0
+- **@typescript-eslint/eslint-plugin**: ^7.12.0
   - Description: ESLint plugin for TypeScript.
-- **@typescript-eslint/parser**: ^6.10.0
+- **@typescript-eslint/parser**: ^7.12.0
   - Description: ESLint parser for TypeScript.
-- **@vitejs/plugin-react**: ^4.2.0
+- **@vitejs/plugin-react**: ^4.3.0
   - Description: Vite plugin for React.
-- **autoprefixer**: ^10.4.16
+- **autoprefixer**: ^10.4.19
   - Description: PostCSS plugin to parse CSS and add vendor prefixes automatically.
-- **eslint**: ^8.53.0
+- **eslint**: ^9.4.0
   - Description: A pluggable and configurable linter tool for identifying and fixing problems in JavaScript code.
-- **eslint-plugin-react-hooks**: ^4.6.0
+- **eslint-plugin-react-hooks**: ^4.6.2
   - Description: ESLint plugin for React hooks.
-- **eslint-plugin-react-refresh**: ^0.4.4
+- **eslint-plugin-react-refresh**: ^0.4.7
   - Description: ESLint plugin for React Refresh.
-- **postcss**: ^8.4.31
+- **postcss**: ^8.4.38
   - Description: A tool for transforming styles with JavaScript plugins.
-- **tailwindcss**: ^3.3.5
+- **tailwindcss**: ^3.4.4
   - Description: A utility-first CSS framework.
-- **typescript**: ^5.2.2
+- **typescript**: ^5.4.5
   - Description: A superset of JavaScript that compiles to clean JavaScript output.
-- **vite**: ^5.0.0
+- **vite**: ^5.2.13
   - Description: A blazing-fast build tool that scales to large projects.
 
 
@@ -132,7 +142,7 @@ cd .\RefactorMate\
 Install the dependencies using npm:
 
 ```bash
-npm install
+pnpm install
 ```
 ### 4. Get OpenAI API Key
 
@@ -148,7 +158,7 @@ VITE_OPENAI_API_KEY = <YOUR_OPENAI_API_KEY>
 Start the frontend application:
 
 ```bash
-npm run frontend
+pnpm run frontend
 ```
 The client will be accessible at http://localhost:5173 by default.
 
@@ -156,7 +166,7 @@ The client will be accessible at http://localhost:5173 by default.
 Start the backend:
 
 ```bash
-npm run backend
+pnpm run backend
 ```
 The server will be running at `PORT:8000`
 
