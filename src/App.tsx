@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Benefits from './components/Benefits'
 import Footer from './components/Footer'
+import LoginSignup from './components/LoginSignup'
 
 
 interface chatData{
@@ -16,7 +17,7 @@ interface chatData{
 const App = ()=> {
 
   const [value,setValue]=useState<string>("")
-  const [chat,setChat]=useState<chatData>([])
+  const [chat, setChat] = useState<chatData | null>(null);
   // const [chat, setChat] = useState<chatData>('');
 
   const [loading, setLoading] = useState(false)
@@ -83,7 +84,7 @@ const App = ()=> {
       </div>
       {/* main section ends */}
   <Benefits/>
-
+<LoginSignup/>
       <Footer/>
     </>
   )
