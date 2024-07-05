@@ -6,8 +6,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
 import Footer from './components/Footer';
-import ScrollToTopButton from './components/ScrollToTopButton';
-
+import ScrollToTopButton from './components/scrollToTopButton';
 
 interface ChatData {
   role: string;
@@ -53,7 +52,7 @@ const App = () => {
     }
   };
 
-  const refactoredCode = chat.length > 0 ? chat[0] : { content: '' };
+  const refactoredCode = chat;
 
   return (
     <>
