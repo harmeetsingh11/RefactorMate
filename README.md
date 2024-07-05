@@ -13,13 +13,6 @@ RefactorMate is a code refactoring tool that harnesses the capabilities of the G
 - [Demo Video](#demo-video)
 - [Contributing](#contributing)
 
-## This Project featured in the following Open-Source Programs
-<br>
-<img alt="GSSoC" src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png#gh-light-mode-only" width=100%>
-<img alt="GSSoC" src="https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only"/>
-
-<img alt="CodePeak" src="https://github.com/harmeetsingh11/RefactorMate/assets/130365071/dff42135-655e-4387-b5a2-713d13b888c6" width=100%>
-
 
 ## Features
 
@@ -189,6 +182,14 @@ The server will be running at `PORT:8000`
 https://github.com/harmeetsingh11/RefactorMate/assets/130365071/7166b29e-71d5-4ff9-9b45-92f5fd63c91d
 
 
+## This Project featured in the following Open-Source Programs
+<br>
+<img alt="GSSoC" src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png#gh-light-mode-only" width=100%>
+<img alt="GSSoC" src="https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only"/>
+
+<img alt="CodePeak" src="https://github.com/harmeetsingh11/RefactorMate/assets/130365071/dff42135-655e-4387-b5a2-713d13b888c6" width=100%>
+
+<img alt="VSoC" src="https://github.com/harmeetsingh11/RefactorMate/assets/130365071/dfec840d-3849-43c0-876e-dc32a84a89da" width=100%>
 
 ## Contributing
 
