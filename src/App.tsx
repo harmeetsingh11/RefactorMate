@@ -6,7 +6,9 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
 import Footer from './components/Footer';
-import ScrollToTopButton from './components/scrollToTopButton';
+import ScrollToTopButton from './components/ScrollToTopButton';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Contributors from './components/Contributors';
 
 interface ChatData {
   role: string;
@@ -54,9 +56,8 @@ const App = () => {
 
   const refactoredCode = chat;
 
-  return (
+  const HomePage = () => (
     <>
-      <Navbar />
       <Hero />
 
       {/* main section starts */}
@@ -81,9 +82,19 @@ const App = () => {
       </div>
       {/* main section ends */}
       <Benefits />
+    </>
+  );
+
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/contributors" element={<Contributors />} />
+      </Routes>
       <Footer />
       <ScrollToTopButton />
-    </>
+    </Router>
   );
 };
 
