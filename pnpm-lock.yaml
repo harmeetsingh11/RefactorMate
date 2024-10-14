@@ -33,8 +33,8 @@ importers:
         specifier: ^16.14.20
         version: 16.14.20
       openai:
-        specifier: ^4.55.4
-        version: 4.55.4(encoding@0.1.13)
+        specifier: ^4.67.3
+        version: 4.67.3(encoding@0.1.13)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -2026,8 +2026,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openai@4.55.4:
-    resolution: {integrity: sha512-TEC75Y6U/OKIJp9fHao3zkTYfKLYGqXdD2TI+xN2Zd5W8KNKvv6E4/OBTOW7jg7fySfrBrhy5fYzBbyBcdHEtQ==}
+  openai@4.67.3:
+    resolution: {integrity: sha512-HT2tZgjLgRqbLQNKmYtjdF/4TQuiBvg1oGvTDhwpSEQzxo6/oM1us8VQ53vBK2BiKvCxFuq6gKGG70qfwrNhKg==}
     hasBin: true
     peerDependencies:
       zod: ^3.23.8
@@ -4810,7 +4810,7 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openai@4.55.4(encoding@0.1.13):
+  openai@4.67.3(encoding@0.1.13):
     dependencies:
       '@types/node': 18.19.34
       '@types/node-fetch': 2.6.11
