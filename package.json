@@ -19,6 +19,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.2",
+    "node-cache": "^5.1.2",
     "npm-check-updates": "^16.14.20",
     "openai": "^4.71.1",
     "react": "^18.3.1",
