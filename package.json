@@ -21,7 +21,7 @@
     "express": "^4.21.2",
     "node-cache": "^5.1.2",
     "npm-check-updates": "^17.1.16",
-    "openai": "^4.86.2",
+    "openai": "^4.91.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.3.0",
