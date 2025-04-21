@@ -22,7 +22,7 @@
     "node-cache": "^5.1.2",
     "npm-check-updates": "^17.1.18",
     "openai": "^4.91.1",
-    "react": "^19.0.0",
+    "react": "^19.1.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.0",
     "react-syntax-highlighter": "^15.6.1",
@@ -31,7 +31,7 @@
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
-    "@types/react": "^19.0.11",
+    "@types/react": "^19.1.2",
     "@types/react-dom": "^19.0.4",
     "@types/react-syntax-highlighter": "^15.5.13",
     "@typescript-eslint/eslint-plugin": "^8.26.0",
