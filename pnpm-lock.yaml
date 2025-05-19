@@ -21,8 +21,8 @@ importers:
         specifier: ^4.1.4
         version: 4.1.4
       '@types/node':
-        specifier: ^22.14.1
-        version: 22.14.1
+        specifier: ^22.15.19
+        version: 22.15.19
       cors:
         specifier: ^2.8.5
         version: 2.8.5
@@ -55,7 +55,7 @@ importers:
         version: 15.6.1(react@19.1.0)
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.14.1)(typescript@5.8.3)
+        version: 10.9.2(@types/node@22.15.19)(typescript@5.8.3)
     devDependencies:
       '@types/cors':
         specifier: ^2.8.18
@@ -80,7 +80,7 @@ importers:
         version: 8.32.0(eslint@9.25.0(jiti@1.21.3))(typescript@5.8.3)
       '@vitejs/plugin-react':
         specifier: ^4.4.1
-        version: 4.4.1(vite@6.3.4(@types/node@22.14.1)(jiti@1.21.3))
+        version: 4.4.1(vite@6.3.4(@types/node@22.15.19)(jiti@1.21.3))
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.3)
@@ -104,7 +104,7 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^6.3.4
-        version: 6.3.4(@types/node@22.14.1)(jiti@1.21.3)
+        version: 6.3.4(@types/node@22.15.19)(jiti@1.21.3)
 
 packages:
 
@@ -635,11 +635,11 @@ packages:
   '@types/node-fetch@2.6.12':
     resolution: {integrity: sha512-8nneRWKCg3rMtF69nLQJnOYUcbafYeFSjqkw3jCRLsqkWFlHaoQrr5mXmofFGOx3DKn7UfmBMyov8ySvLRVldA==}
 
-  '@types/node@18.19.87':
-    resolution: {integrity: sha512-OIAAu6ypnVZHmsHCeJ+7CCSub38QNBS9uceMQeg7K5Ur0Jr+wG9wEOEvvMbhp09pxD5czIUy/jND7s7Tb6Nw7A==}
+  '@types/node@18.19.101':
+    resolution: {integrity: sha512-Ykg7fcE3+cOQlLUv2Ds3zil6DVjriGQaSN/kEpl5HQ3DIGM6W0F2n9+GkWV4bRt7KjLymgzNdTnSKCbFUUJ7Kw==}
 
-  '@types/node@22.14.1':
-    resolution: {integrity: sha512-u0HuPQwe/dHrItgHHpmw3N2fYCR6x4ivMNbPHRkBVP4CvN+kiRrKHWk3i8tXiO/joPwXLMYvF9TTF0eqgHIuOw==}
+  '@types/node@22.15.19':
+    resolution: {integrity: sha512-3vMNr4TzNQyjHcRZadojpRaD9Ofr6LsonZAoQ+HMUa/9ORTPoxVIw0e0mpqWpdjj8xybyCM+oKOUH2vwFu/oEw==}
 
   '@types/qs@6.9.18':
     resolution: {integrity: sha512-kK7dgTYDyGqS+e2Q4aK9X3D7q234CIZ1Bv0q/7Z5IwRDoADNU81xXJK/YVyLbLTZCoIwUoDoffFeF+p/eIklAA==}
@@ -2222,21 +2222,21 @@ snapshots:
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 22.14.1
+      '@types/node': 22.15.19
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.19
 
   '@types/cors@2.8.18':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.19
 
   '@types/estree@1.0.7': {}
 
   '@types/express-serve-static-core@5.0.6':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.19
       '@types/qs': 6.9.18
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -2259,14 +2259,14 @@ snapshots:
 
   '@types/node-fetch@2.6.12':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.19
       form-data: 4.0.2
 
-  '@types/node@18.19.87':
+  '@types/node@18.19.101':
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@22.14.1':
+  '@types/node@22.15.19':
     dependencies:
       undici-types: 6.21.0
 
@@ -2289,12 +2289,12 @@ snapshots:
   '@types/send@0.17.4':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 22.14.1
+      '@types/node': 22.15.19
 
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 22.14.1
+      '@types/node': 22.15.19
       '@types/send': 0.17.4
 
   '@types/unist@2.0.11': {}
@@ -2376,14 +2376,14 @@ snapshots:
       '@typescript-eslint/types': 8.32.0
       eslint-visitor-keys: 4.2.0
 
-  '@vitejs/plugin-react@4.4.1(vite@6.3.4(@types/node@22.14.1)(jiti@1.21.3))':
+  '@vitejs/plugin-react@4.4.1(vite@6.3.4(@types/node@22.15.19)(jiti@1.21.3))':
     dependencies:
       '@babel/core': 7.27.1
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.27.1)
       '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.27.1)
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.4(@types/node@22.14.1)(jiti@1.21.3)
+      vite: 6.3.4(@types/node@22.15.19)(jiti@1.21.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -3069,7 +3069,7 @@ snapshots:
 
   openai@4.97.0(encoding@0.1.13):
     dependencies:
-      '@types/node': 18.19.87
+      '@types/node': 18.19.101
       '@types/node-fetch': 2.6.12
       abort-controller: 3.0.0
       agentkeepalive: 4.6.0
@@ -3361,14 +3361,14 @@ snapshots:
     dependencies:
       typescript: 5.8.3
 
-  ts-node@10.9.2(@types/node@22.14.1)(typescript@5.8.3):
+  ts-node@10.9.2(@types/node@22.15.19)(typescript@5.8.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.14.1
+      '@types/node': 22.15.19
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
@@ -3419,7 +3419,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@6.3.4(@types/node@22.14.1)(jiti@1.21.3):
+  vite@6.3.4(@types/node@22.15.19)(jiti@1.21.3):
     dependencies:
       esbuild: 0.25.3
       fdir: 6.4.4(picomatch@4.0.2)
@@ -3428,7 +3428,7 @@ snapshots:
       rollup: 4.40.1
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.19
       fsevents: 2.3.3
       jiti: 1.21.3
 
