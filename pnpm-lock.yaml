@@ -39,8 +39,8 @@ importers:
         specifier: ^18.0.1
         version: 18.0.1
       openai:
-        specifier: ^5.9.0
-        version: 5.9.0
+        specifier: ^5.10.1
+        version: 5.10.1
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -1383,8 +1383,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openai@5.9.0:
-    resolution: {integrity: sha512-cmLC0pfqLLhBGxE4aZPyRPjydgYCncppV2ClQkKmW79hNjCvmzkfhz8rN5/YVDmjVQlFV+UsF1JIuNjNgeagyQ==}
+  openai@5.10.1:
+    resolution: {integrity: sha512-fq6xVfv1/gpLbsj8fArEt3b6B9jBxdhAK+VJ+bDvbUvNd+KTLlA3bnDeYZaBsGH9LUhJ1M1yXfp9sEyBLMx6eA==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -3011,7 +3011,7 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openai@5.9.0: {}
+  openai@5.10.1: {}
 
   optionator@0.9.4:
     dependencies:
