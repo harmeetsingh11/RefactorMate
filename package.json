@@ -15,7 +15,7 @@
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@fortawesome/react-fontawesome": "^0.2.3",
     "@splidejs/splide": "^4.1.4",
-    "@types/node": "^24.1.0",
+    "@types/node": "^24.3.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
