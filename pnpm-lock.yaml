@@ -15,8 +15,8 @@ importers:
         specifier: ^7.0.1
         version: 7.0.1
       '@fortawesome/react-fontawesome':
-        specifier: ^3.0.1
-        version: 3.0.1(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.1.1)
+        specifier: ^3.0.2
+        version: 3.0.2(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.1.1)
       '@splidejs/splide':
         specifier: ^4.1.4
         version: 4.1.4
@@ -417,8 +417,8 @@ packages:
     resolution: {integrity: sha512-esKuSrl1WMOTMDLNt38i16VfLe/gRZt2ZAJ3Yw7slfs7sj583MKqNFqO57zmhknk1Sya6f9Wys89aCzIJkcqlg==}
     engines: {node: '>=6'}
 
-  '@fortawesome/react-fontawesome@3.0.1':
-    resolution: {integrity: sha512-kpVyf85UHhQ+Y/TPyiNaUldqylhhXiVXv20z7sq+CLmhKLXWbzjIHaRPDrHIydnrL6Qq9oFwuNHq66alJdDM5Q==}
+  '@fortawesome/react-fontawesome@3.0.2':
+    resolution: {integrity: sha512-cmp/nT0pPC7HUALF8uc3+D5ECwEBWxYQbOIHwtGUWEu72sWtZc26k5onr920HWOViF0nYaC+Qzz6Ln56SQcaVg==}
     engines: {node: '>=20'}
     peerDependencies:
       '@fortawesome/fontawesome-svg-core': ~6 || ~7
@@ -2022,11 +2022,10 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-common-types': 7.0.1
 
-  '@fortawesome/react-fontawesome@3.0.1(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.1.1)':
+  '@fortawesome/react-fontawesome@3.0.2(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.1.1)':
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.5.2
       react: 19.1.1
-      semver: 7.7.2
 
   '@humanfs/core@0.19.1': {}
 
