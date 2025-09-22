@@ -20,7 +20,7 @@
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "node-cache": "^5.1.2",
-    "npm-check-updates": "^18.0.2",
+    "npm-check-updates": "^18.3.0",
     "openai": "^5.16.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
