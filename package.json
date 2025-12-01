@@ -24,7 +24,7 @@
     "openai": "^6.9.1",
     "react": "^19.2.0",
     "react-dom": "^19.1.1",
-    "react-router-dom": "^7.9.5",
+    "react-router-dom": "^7.9.6",
     "react-syntax-highlighter": "^15.6.6",
     "ts-node": "^10.9.2"
   },
