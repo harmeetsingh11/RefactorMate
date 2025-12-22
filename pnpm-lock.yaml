@@ -39,8 +39,8 @@ importers:
         specifier: ^19.1.2
         version: 19.1.2
       openai:
-        specifier: ^6.10.0
-        version: 6.10.0(zod@4.1.12)
+        specifier: ^6.15.0
+        version: 6.15.0(zod@4.1.12)
       react:
         specifier: ^19.2.1
         version: 19.2.1
@@ -999,6 +999,7 @@ packages:
 
   eslint-plugin-react-refresh@0.4.25:
     resolution: {integrity: sha512-dRUD2LOdEqI4zXHqbQ442blQAzdSuShAaiSq5Vtyy6LT08YUf0oOjBDo4VPx0dCPgiPWh1WB4dtbLOd0kOlDPQ==}
+    deprecated: This version introduced false positive. This was reverted in 0.4.26
     peerDependencies:
       eslint: '>=8.40'
 
@@ -1378,8 +1379,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openai@6.10.0:
-    resolution: {integrity: sha512-ITxOGo7rO3XRMiKA5l7tQ43iNNu+iXGFAcf2t+aWVzzqRaS0i7m1K2BhxNdaveB+5eENhO0VY1FkiZzhBk4v3A==}
+  openai@6.15.0:
+    resolution: {integrity: sha512-F1Lvs5BoVvmZtzkUEVyh8mDQPPFolq4F+xdsx/DO8Hee8YF3IGAlZqUIsF+DVGhqf4aU0a3bTghsxB6OIsRy1g==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -2996,7 +2997,7 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openai@6.10.0(zod@4.1.12):
+  openai@6.15.0(zod@4.1.12):
     optionalDependencies:
       zod: 4.1.12
 
