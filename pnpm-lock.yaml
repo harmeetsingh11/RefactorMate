@@ -16,7 +16,7 @@ importers:
         version: 7.1.0
       '@fortawesome/react-fontawesome':
         specifier: ^3.1.1
-        version: 3.1.1(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.2.3)
+        version: 3.1.1(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.2.4)
       '@splidejs/splide':
         specifier: ^4.1.4
         version: 4.1.4
@@ -42,17 +42,17 @@ importers:
         specifier: ^6.16.0
         version: 6.16.0(zod@4.1.12)
       react:
-        specifier: ^19.2.3
-        version: 19.2.3
+        specifier: ^19.2.4
+        version: 19.2.4
       react-dom:
         specifier: ^19.1.1
-        version: 19.1.1(react@19.2.3)
+        version: 19.1.1(react@19.2.4)
       react-router-dom:
         specifier: ^7.13.0
-        version: 7.13.0(react-dom@19.1.1(react@19.2.3))(react@19.2.3)
+        version: 7.13.0(react-dom@19.1.1(react@19.2.4))(react@19.2.4)
       react-syntax-highlighter:
         specifier: ^16.1.0
-        version: 16.1.0(react@19.2.3)
+        version: 16.1.0(react@19.2.4)
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@25.0.10)(typescript@5.9.3)
@@ -64,11 +64,11 @@ importers:
         specifier: ^5.0.6
         version: 5.0.6
       '@types/react':
-        specifier: ^19.2.9
-        version: 19.2.9
+        specifier: ^19.2.10
+        version: 19.2.10
       '@types/react-dom':
         specifier: ^19.1.9
-        version: 19.1.9(@types/react@19.2.9)
+        version: 19.1.9(@types/react@19.2.10)
       '@types/react-syntax-highlighter':
         specifier: ^15.5.13
         version: 15.5.13
@@ -651,8 +651,8 @@ packages:
   '@types/react-syntax-highlighter@15.5.13':
     resolution: {integrity: sha512-uLGJ87j6Sz8UaBAooU0T6lWJ0dBmjZgN1PZTrj05TNql2/XpC6+4HhMT5syIdFUUt+FASfCeLLv4kBygNU+8qA==}
 
-  '@types/react@19.2.9':
-    resolution: {integrity: sha512-Lpo8kgb/igvMIPeNV2rsYKTgaORYdO1XGVZ4Qz3akwOj0ySGYMPlQWa8BaLn0G63D1aSaAQ5ldR06wCpChQCjA==}
+  '@types/react@19.2.10':
+    resolution: {integrity: sha512-WPigyYuGhgZ/cTPRXB2EwUw+XvsRA3GqHlsP4qteqrnnjDrApbS7MxcGr/hke5iUoeB7E/gQtrs9I37zAJ0Vjw==}
 
   '@types/send@1.2.1':
     resolution: {integrity: sha512-arsCikDvlU99zl1g69TcAB3mzZPpxgw0UQnaHeC1Nwb015xp8bknZv5rIfri9xTOcMuaVgvabfIRA7PSZVuZIQ==}
@@ -1431,8 +1431,8 @@ packages:
     peerDependencies:
       react: '>= 0.14.0'
 
-  react@19.2.3:
-    resolution: {integrity: sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA==}
+  react@19.2.4:
+    resolution: {integrity: sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==}
     engines: {node: '>=0.10.0'}
 
   refractor@5.0.0:
@@ -1927,10 +1927,10 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-common-types': 7.1.0
 
-  '@fortawesome/react-fontawesome@3.1.1(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.2.3)':
+  '@fortawesome/react-fontawesome@3.1.1(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.2.4)':
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.5.2
-      react: 19.2.3
+      react: 19.2.4
 
   '@humanfs/core@0.19.1': {}
 
@@ -2114,15 +2114,15 @@ snapshots:
 
   '@types/range-parser@1.2.7': {}
 
-  '@types/react-dom@19.1.9(@types/react@19.2.9)':
+  '@types/react-dom@19.1.9(@types/react@19.2.10)':
     dependencies:
-      '@types/react': 19.2.9
+      '@types/react': 19.2.10
 
   '@types/react-syntax-highlighter@15.5.13':
     dependencies:
-      '@types/react': 19.2.9
+      '@types/react': 19.2.10
 
-  '@types/react@19.2.9':
+  '@types/react@19.2.10':
     dependencies:
       csstype: 3.2.3
 
@@ -2905,38 +2905,38 @@ snapshots:
       iconv-lite: 0.7.1
       unpipe: 1.0.0
 
-  react-dom@19.1.1(react@19.2.3):
+  react-dom@19.1.1(react@19.2.4):
     dependencies:
-      react: 19.2.3
+      react: 19.2.4
       scheduler: 0.26.0
 
   react-refresh@0.18.0: {}
 
-  react-router-dom@7.13.0(react-dom@19.1.1(react@19.2.3))(react@19.2.3):
+  react-router-dom@7.13.0(react-dom@19.1.1(react@19.2.4))(react@19.2.4):
     dependencies:
-      react: 19.2.3
-      react-dom: 19.1.1(react@19.2.3)
-      react-router: 7.13.0(react-dom@19.1.1(react@19.2.3))(react@19.2.3)
+      react: 19.2.4
+      react-dom: 19.1.1(react@19.2.4)
+      react-router: 7.13.0(react-dom@19.1.1(react@19.2.4))(react@19.2.4)
 
-  react-router@7.13.0(react-dom@19.1.1(react@19.2.3))(react@19.2.3):
+  react-router@7.13.0(react-dom@19.1.1(react@19.2.4))(react@19.2.4):
     dependencies:
       cookie: 1.1.1
-      react: 19.2.3
+      react: 19.2.4
       set-cookie-parser: 2.7.2
     optionalDependencies:
-      react-dom: 19.1.1(react@19.2.3)
+      react-dom: 19.1.1(react@19.2.4)
 
-  react-syntax-highlighter@16.1.0(react@19.2.3):
+  react-syntax-highlighter@16.1.0(react@19.2.4):
     dependencies:
       '@babel/runtime': 7.28.4
       highlight.js: 10.7.3
       highlightjs-vue: 1.0.0
       lowlight: 1.20.0
       prismjs: 1.30.0
-      react: 19.2.3
+      react: 19.2.4
       refractor: 5.0.0
 
-  react@19.2.3: {}
+  react@19.2.4: {}
 
   refractor@5.0.0:
     dependencies:
