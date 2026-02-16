@@ -12,8 +12,8 @@ importers:
         specifier: ^7.1.0
         version: 7.1.0
       '@fortawesome/free-solid-svg-icons':
-        specifier: ^7.1.0
-        version: 7.1.0
+        specifier: ^7.2.0
+        version: 7.2.0
       '@fortawesome/react-fontawesome':
         specifier: ^3.1.1
         version: 3.1.1(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.2.4)
@@ -458,6 +458,10 @@ packages:
     resolution: {integrity: sha512-l/BQM7fYntsCI//du+6sEnHOP6a74UixFyOYUyz2DLMXKx+6DEhfR3F2NYGE45XH1JJuIamacb4IZs9S0ZOWLA==}
     engines: {node: '>=6'}
 
+  '@fortawesome/fontawesome-common-types@7.2.0':
+    resolution: {integrity: sha512-IpR0bER9FY25p+e7BmFH25MZKEwFHTfRAfhOyJubgiDnoJNsSvJ7nigLraHtp4VOG/cy8D7uiV0dLkHOne5Fhw==}
+    engines: {node: '>=6'}
+
   '@fortawesome/fontawesome-svg-core@6.5.2':
     resolution: {integrity: sha512-5CdaCBGl8Rh9ohNdxeeTMxIj8oc3KNBgIeLMvJosBMdslK/UnEB8rzyDRrbKdL1kDweqBPo4GT9wvnakHWucZw==}
     engines: {node: '>=6'}
@@ -466,8 +470,8 @@ packages:
     resolution: {integrity: sha512-9byUd9bgNfthsZAjBl6GxOu1VPHgBuRUP9juI7ZoM98h8xNPTCTagfwUFyYscdZq4Hr7gD1azMfM9s5tIWKZZA==}
     engines: {node: '>=6'}
 
-  '@fortawesome/free-solid-svg-icons@7.1.0':
-    resolution: {integrity: sha512-Udu3K7SzAo9N013qt7qmm22/wo2hADdheXtBfxFTecp+ogsc0caQNRKEb7pkvvagUGOpG9wJC1ViH6WXs8oXIA==}
+  '@fortawesome/free-solid-svg-icons@7.2.0':
+    resolution: {integrity: sha512-YTVITFGN0/24PxzXrwqCgnyd7njDuzp5ZvaCx5nq/jg55kUYd94Nj8UTchBdBofi/L0nwRfjGOg0E41d2u9T1w==}
     engines: {node: '>=6'}
 
   '@fortawesome/react-fontawesome@3.1.1':
@@ -2058,6 +2062,8 @@ snapshots:
 
   '@fortawesome/fontawesome-common-types@7.1.0': {}
 
+  '@fortawesome/fontawesome-common-types@7.2.0': {}
+
   '@fortawesome/fontawesome-svg-core@6.5.2':
     dependencies:
       '@fortawesome/fontawesome-common-types': 6.5.2
@@ -2066,9 +2072,9 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-common-types': 7.1.0
 
-  '@fortawesome/free-solid-svg-icons@7.1.0':
+  '@fortawesome/free-solid-svg-icons@7.2.0':
     dependencies:
-      '@fortawesome/fontawesome-common-types': 7.1.0
+      '@fortawesome/fontawesome-common-types': 7.2.0
 
   '@fortawesome/react-fontawesome@3.1.1(@fortawesome/fontawesome-svg-core@6.5.2)(react@19.2.4)':
     dependencies:
