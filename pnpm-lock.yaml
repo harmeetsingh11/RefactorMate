@@ -36,8 +36,8 @@ importers:
         specifier: ^5.1.2
         version: 5.1.2
       npm-check-updates:
-        specifier: ^20.0.0
-        version: 20.0.0
+        specifier: ^21.0.2
+        version: 21.0.2
       openai:
         specifier: ^6.34.0
         version: 6.34.0(zod@4.1.12)
@@ -1406,9 +1406,9 @@ packages:
   node-releases@2.0.36:
     resolution: {integrity: sha512-TdC8FSgHz8Mwtw9g5L4gR/Sh9XhSP/0DEkQxfEFXOpiul5IiHgHan2VhYYb6agDSfp4KuvltmGApc8HMgUrIkA==}
 
-  npm-check-updates@20.0.0:
-    resolution: {integrity: sha512-qCs02x51irGf0okCttwv8lHEO2NxT903IJ2bKpG82kIzkm6pfT3CoWB5YIvqY/wi/DdnYRfI7eVfCYYymQgvCg==}
-    engines: {node: '>=20.0.0', npm: '>=8.12.1'}
+  npm-check-updates@21.0.2:
+    resolution: {integrity: sha512-b4o+4hbTOZW1gDPcM3wRpIgaB+Vyn/c6MFG2aw70Mo84f0toUulXUJtA1cncBv5BEZqUyotHFv6FR7aIN3Sq1w==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: '>=10.0.0'}
     hasBin: true
 
   object-assign@4.1.1:
@@ -3052,7 +3052,7 @@ snapshots:
 
   node-releases@2.0.36: {}
 
-  npm-check-updates@20.0.0: {}
+  npm-check-updates@21.0.2: {}
 
   object-assign@4.1.1: {}
 
