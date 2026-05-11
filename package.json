@@ -22,7 +22,7 @@
     "node-cache": "^5.1.2",
     "npm-check-updates": "^22.0.1",
     "openai": "^6.34.0",
-    "react": "^19.2.5",
+    "react": "^19.2.6",
     "react-dom": "^19.2.5",
     "react-router-dom": "^7.14.2",
     "react-syntax-highlighter": "^16.1.1",
