@@ -48,8 +48,8 @@ importers:
         specifier: ^19.2.5
         version: 19.2.5(react@19.3.0)
       react-router-dom:
-        specifier: ^7.14.2
-        version: 7.14.2(react-dom@19.2.5(react@19.3.0))(react@19.3.0)
+        specifier: ^7.18.4
+        version: 7.18.4(react-dom@19.2.5(react@19.3.0))(react@19.3.0)
       react-syntax-highlighter:
         specifier: ^16.1.1
         version: 16.1.1(react@19.3.0)
@@ -1432,15 +1432,15 @@ packages:
     peerDependencies:
       react: ^19.2.5
 
-  react-router-dom@7.14.2:
-    resolution: {integrity: sha512-YZcM5ES8jJSM+KrJ9BdvHHqlnGTg5tH3sC5ChFRj4inosKctdyzBDhOyyHdGk597q2OT6NTrCA1OvB/YDwfekQ==}
+  react-router-dom@7.18.4:
+    resolution: {integrity: sha512-yrfmJHIpDG7taCpqKjT1G5B6q3O2K+RN8/fgNf0lTjCwiPbQ0ei6vXX9ZjQR+7ld8Tr7Z5xmyMnZ8YJrphWQUw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
 
-  react-router@7.14.2:
-    resolution: {integrity: sha512-yCqNne6I8IB6rVCH7XUvlBK7/QKyqypBFGv+8dj4QBFJiiRX+FG7/nkdAvGElyvVZ/HQP5N19wzteuTARXi5Gw==}
+  react-router@7.18.4:
+    resolution: {integrity: sha512-PUPQcMhMGRAslLcvtlPz/kmzBEWPhLdgLFrL7pLNepBL6dX0lWj4WD2cUYVgYCuT3jxvghYFg81cDTj44DhetQ==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -2913,13 +2913,13 @@ snapshots:
       react: 19.3.0
       scheduler: 0.27.0
 
-  react-router-dom@7.14.2(react-dom@19.2.5(react@19.3.0))(react@19.3.0):
+  react-router-dom@7.18.4(react-dom@19.2.5(react@19.3.0))(react@19.3.0):
     dependencies:
       react: 19.3.0
       react-dom: 19.2.5(react@19.3.0)
-      react-router: 7.14.2(react-dom@19.2.5(react@19.3.0))(react@19.3.0)
+      react-router: 7.18.4(react-dom@19.2.5(react@19.3.0))(react@19.3.0)
 
-  react-router@7.14.2(react-dom@19.2.5(react@19.3.0))(react@19.3.0):
+  react-router@7.18.4(react-dom@19.2.5(react@19.3.0))(react@19.3.0):
     dependencies:
       cookie: 1.1.1
       react: 19.3.0
